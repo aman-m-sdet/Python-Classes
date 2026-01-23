@@ -1,0 +1,17 @@
+OPERATORS:
+
+A Person who operates is clled OPERATOR
+slly in Python we have 
+1. Arthamatic OPERATOR
+2. Relationship or comparission OPERATOR
+3. Equality OPERATORS
+4. Logical OPERATOR
+5. Bitwise OPERATOR
+6. Shift OPERATOR
+7. Assignment OPERATORS
+8. Tertety OPERATORS
+9. Special OPERATOR
+ - identity OPERATOR
+ - membership OPERATORS
+10. OPERATOR Predence
+11. Mathimatical Functinla by using math module

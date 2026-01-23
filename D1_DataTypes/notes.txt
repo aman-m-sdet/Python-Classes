@@ -1,0 +1,12 @@
+
+mutable--> CANNOT CHANGE
+immutable --> CHANGES ALLOWED
+
+LIST        - mutable
+TUPLE       - immutable
+SET         - mutable
+FROZENSET   - immutable
+DICT        - mutable
+RANGE       - immutable
+BYTES       - immutable
+BYTESARRAY  - mutable
