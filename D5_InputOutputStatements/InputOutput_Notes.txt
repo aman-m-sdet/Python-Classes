@@ -1,0 +1,13 @@
+#agenda & difference between raw_input & input() function
+
+1. raw_input() vs input()
+2. python-3 input () functions
+3. How to read multiple values from keyboard in single line
+4. command line arguments
+
+Output:
+5. Output statement print() functions
+6. sep attribute( seperator)
+7. end attribute
+8. print formatting
+9. replacement operator {}
