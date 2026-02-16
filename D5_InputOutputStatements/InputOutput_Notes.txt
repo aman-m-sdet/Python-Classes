@@ -11,3 +11,7 @@ Output:
 7. end attribute
 8. print formatting
 9. replacement operator {}
+
+
+eval() function : while we convert bool to sring we use eval()
+altenative to type casting we use eval() func.it also convert mathamatical form to itself.

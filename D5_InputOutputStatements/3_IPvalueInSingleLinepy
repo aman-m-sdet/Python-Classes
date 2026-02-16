@@ -1,17 +1,4 @@
-#1. Raw_Input():
-# can be used to read end user data
-# it always provide in the form of string  , compulsory type casting
-
-#x= raw_input("enter some value:")   # ra_input i n python2
-#y =int(x)
-#print(type(x))
-##############################################################
-#2. input( ):  this function is not required the type casting
-
-x = input("enter some value:")
-print(type(x))
-
-#Demo Prog: Reade ip date from keyboard
+#Demo1 Prog: Reade ip date from keyboard
  #1st method:
 x=input("enter first number:")
 y=input ("enter second number:")
@@ -37,3 +24,18 @@ print(esal)
 print(eadd)
 print(married)
 
+# Demo3: prog: Reding multiple values from keyboard i single line
+a,b = [int(x) for x in input('Enter 2 numbers:').split(",")]
+print('The sum of 2 num:', a+b)
+
+#Demo4: prog: eval() function:
+#while we conver bool to string we use eval() function
+c = eval(input("enter something:"))   # enter intiger
+print(type(c))
+
+# altenative to type casting we use eval() func.it also convert mathamatical form to itself.
+f=eval("10+20+30")
+print(type(f),f)
+
+j=eval("10+20/3**4/5*20")
+print(type(j),j)
