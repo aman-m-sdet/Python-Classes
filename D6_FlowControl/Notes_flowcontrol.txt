@@ -1,0 +1,17 @@
+Python Flow Control:
+--------------------
+At run time in which order the code will execute is flow control.
+
+Flow control:
+Selective statements: 
+    1.if
+    2.if-else
+    3.if-elif-else
+    4.if-elif
+Iterativev statements:
+    1.for
+    2.while
+Transfer Statements:
+    1.break
+    2.continue
+    

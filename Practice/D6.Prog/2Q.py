@@ -1,0 +1,1 @@
+#WAP To generate prie num which are less than or equal to given num?
