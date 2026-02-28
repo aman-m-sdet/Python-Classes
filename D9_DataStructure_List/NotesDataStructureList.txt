@@ -1,0 +1,17 @@
+#Python Data Structures: List
+if you want to use group of objects as a single entity the we will go for collection data type:
+List:
+Duplicates allowed + order is preserved
+l=[]
+l.append(10)
+l.append("aman")
+l.append(10)
+print(l)    ---> [10,aman,10]
+
+Conclusion:
+1. insertion is preserved
+2. duplicates obj are allowed
+3. hetrogenous obj allowed - [ like int char --etc]
+4. dynamic - [remove & add obj]
+5. mutable - [we can add, replace(editable)]
+6. [] representation
