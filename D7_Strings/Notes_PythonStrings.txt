@@ -1,0 +1,35 @@
+#Python Strings:
+Importance of strings and ways to declare string:
+String Data Type:
+x=input("Enter some data")-   by default it is Str data Type
+
+* A string is sequence of characters in 'single quote/ double quote" is considered as string
+* ch ='a' / "a" --->string in Python
+Ex: s='''Aman
+        is software
+        Engineer'''
+    'This is single quote'
+    "this is double quote"
+    ''' this is multiline '''
+    '''aman is 'software',"engineer" employee'''  --->valid
+======================================================================
+How to access characters of string &appn
+2 ways ->1. By using Index
+       ->2. By using slice
+
+* Python supports +ve and -ve indexing
+======================================================================
+Slice Opeator Rules:
+s[begin:end]
+s[begin:end:step]
+* if step is +ve: left to right --> forwared direction begin to end-1
+* if step is -ve: right to left --> backward direction begin to end+1
+Note:
+- if fwd end value is 0, result will always [empty]
+- if bwd end value is -1, result will always [empty]
+- in fwd direction:
+    - defult value for begin: -1
+    - default value for end: len(s)
+- in bwd direction:
+    - default value for begin: -1
+    - default value for end: (len(s)+1)
